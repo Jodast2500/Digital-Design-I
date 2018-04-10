@@ -1,0 +1,372 @@
+html {
+    height: 100%;
+    overflow: hidden;
+  }
+  table{
+    z-index: 5;
+  }
+  body { 
+    margin:0;
+    padding:0;
+      perspective: 1px;
+      transform-style: preserve-3d;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-family: Helvetica;
+  }
+  
+  h1 {
+     font:Helvetica-Bold.ttf
+     font-size: 250%
+  }
+  
+  p {
+    font-size: 140%;
+    font: Helvetica-Regular.ttf
+    line-height: 150%;
+    color: #333;
+  }
+  
+  .slide {
+    position: relative;
+    padding: 25vh 10%;
+    min-height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+      transform-style: inherit;
+  }
+  
+  img {
+    position: center;
+    top: 50%;
+    left: 35%;
+    width: 500px;
+    height: 500px;
+  }
+  
+  img:last-of-type {
+  }
+  
+  .slide:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .title {
+    width: 50%;
+    padding: 5%;
+    border-radius: 0px;
+    background: white;
+    vertical-align: center; 
+  }
+  
+  .slide:nth-child(2n) .title {
+    margin-left: 0;
+    margin-right: auto;
+  }
+  
+  .slide:nth-child(2n+1) .title {
+    margin-left: auto;
+    margin-right: 0;
+  }
+  
+  .slide, .slide:before {
+    background: 50% 50% / cover; 
+  }
+  
+  .header {
+    text-align: relative;
+    font-size: 175%;
+    color: white;
+  }
+  
+  #title {
+    background-image: url("covers/uv4.jpg");
+    z-index:2;
+    text-align: absolute;
+  }
+  
+  #title h1 {
+   transform: translateZ(.25px) scale(.75);
+   transform-origin: 50% 100%;
+  }
+  
+  #slide1:before {
+    background-image: url("covers/uv4.jpg");
+    transform: translateZ(-1px) scale(2);
+  }
+  #slide1 {
+    background-image: url("covers/thedrop.jpg");
+    transform: translateZ(-1px) scale(2);
+  }  
+  #slide2 {
+    background-image: url("covers/need.jpg");
+    z-index:2;
+  }
+  
+  #slide3 {
+    background-image: url("covers/spitfire.jpg");
+    transform: translateZ(-1px) scale(2); 
+    z-index:1;  
+
+  }
+  
+  #slide4 {
+    background-image: url("covers/going.jpg");
+    z-index:2;
+  }
+
+  #slide5 {
+    background-image: url("covers/joy.jpg");
+    transform: translateZ(-1px) scale(2); 
+  }
+  #slide6 {
+    background-image: url("covers/sky.jpg");
+    z-index:2;
+  }
+  #slide7 {
+        background-image: url("covers/doji.jpg");
+        transform: translateZ(-1px) scale(2);
+  }
+  #slide8 {
+    background-image: url("covers/never.jpg");
+    z-index:2;
+  }
+  #slide9 {
+    background-image: url("covers/disarray.jpg");
+    transform: translateZ(-1px) scale(2);
+}
+
+#slide10 {
+    background-image: url("covers/super.jpg");
+    z-index:2;
+  }
+
+#slide11 {
+    background-image: url("covers/lyra.jpg");
+    transform: translateZ(-1px) scale(2);
+}
+
+#slide12 {
+    background-image: url("covers/promise.jpg");
+    z-index:2;
+  }
+
+  #slide13 {
+    background-image: url("covers/eyes.jpg");
+    transform: translateZ(-1px) scale(2);
+}
+  
+#slide14 {
+  background-image: url("covers/meaning.jpg");
+  z-index:2;
+}
+#slide15 {
+  background-image: url("covers/sub.jpg");
+  transform: translateZ(-1px) scale(2);
+}
+
+#slide16 {
+  background-image: url("covers/alot.jpg");
+  z-index:2;
+}
+
+#slide17 {
+  background-image: url("covers/dance.jpg");
+  transform: translateZ(-1px) scale(2);
+}
+
+#slide18 {
+  background-image: url("covers/higher.jpg");
+  z-index:2;
+}
+
+#slide19 {
+  background-image: url("covers/cheat.jpg");
+  transform: translateZ(-1px) scale(2);
+}
+
+#slide20 {
+  background-image: url("covers/body.jpg");
+  z-index:2;
+}
+
+#slide21 {
+  background-image: url("covers/champ.jpg");
+  transform: translateZ(-1px) scale(2);
+}
+
+#slide22 {
+  background-image: url("covers/stayrm.jpg");
+  z-index:2;
+}
+
+#slide23{
+  background-image: url("covers/beast.jpg");
+  transform: translateZ(-1px) scale(2);
+}
+
+#slide24 {
+  background-image: url("covers/smog.jpg");
+  z-index:2;
+}
+
+#slide25{
+  background-image: url("covers/push.jpg");
+  transform: translateZ(-1px) scale(2);
+}
+
+#slide26 {
+  background-image: url("covers/supersonic.jpg");
+  z-index:2;
+}
+
+#slide27{
+  background-image: url("covers/higherrm.jpg");
+  transform: translateZ(-1px) scale(2);
+}
+
+#slide28 {
+  background-image: url("covers/hauntedvip.jpg");
+  z-index:2;
+}
+
+#slide29{
+  background-image: url("covers/omen.jpg");
+  transform: translateZ(-1px) scale(2);
+}
+
+#slide30 {
+  background-image: url("covers/shut.jpg");
+  z-index:2;
+}
+#slide31{
+  background-color: white;
+  transform: translateZ(-1px) scale(2);
+}
+
+  .seppemane{
+      margin-top: 50px;
+      color: white;
+     
+  }
+  li{
+      font-weight: 50;
+  }
+  a:link {
+      color: black;
+      text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+      color: Black;
+      text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+      color: rgb(173, 201, 247);
+      text-decoration: none;
+  }
+  
+  /* selected link */
+  a:active {
+      color: rgb(92, 142, 224);
+      text-decoration: none;
+  }
+  .thedrop{
+    margin-left: 120px;
+  }
+  .need{
+    margin-left: 120px;
+  }
+  .spitfire{
+    margin-left: 120px;
+  }
+  .going{
+      margin-left: 120px; 
+  }
+  .joy{
+    margin-left: 120px; 
+}
+  .sky{
+    margin-left: 120px; 
+}
+.doji{
+    margin-left: 120px; 
+}
+.never{
+    margin-left: 120px; 
+}
+.disarray{
+    margin-left: 120px; 
+}
+.spag{
+    margin-left: 120px;
+}
+.lyra{
+    margin-left: 120px;
+}
+.promise{
+    margin-left: 120px;
+}
+.eyes{
+    margin-left: 120px;
+}
+.meaning{
+  margin-left: 120px;
+}
+.sub{
+  margin-left: 120px;
+}
+.alot{
+  margin-left: 120px;
+}
+.dance{
+  margin-left: 120px;
+}
+.higher{
+  margin-left: 120px;
+}
+.cheat{
+  margin-left: 120px;
+}
+.body{
+  margin-left: 120px;
+}
+.champ{
+  margin-left: 120px;
+}
+.stayrm{
+  margin-left: 120px;
+}
+.beast{
+  margin-left: 120px;
+}
+.smog{
+  margin-left: 120px;
+}
+.push{
+  margin-left: 120px;
+}
+.super{
+  margin-left: 120px;
+}
+.higherrm{
+  margin-left: 120px;
+}
+.hauntedvip{
+  margin-left: 120px;
+}
+.omen{
+  margin-left: 120px;
+}
+.shut{
+  margin-left: 120px;
+}
