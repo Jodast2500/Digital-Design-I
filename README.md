@@ -1,2 +1,2 @@
-# -Digital-Design-I-Incomplete-Not-Good
-Incomplete or bad projects from Digital Design I
+# -Digital-Design-I
+Projects from Digital Design I
