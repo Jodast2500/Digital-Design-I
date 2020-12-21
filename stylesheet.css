@@ -1,0 +1,152 @@
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
+body { 
+  margin:0;
+  padding:0;
+	perspective: 1px;
+	transform-style: preserve-3d;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-family: Helvetica;
+}
+
+h1 {
+	 font:Helvetica-Bold.ttf
+   font-size: 250%
+}
+
+p {
+  font-size: 140%;
+  font: Helvetica-Regular.ttf
+  line-height: 150%;
+  color: #333;
+}
+
+.slide {
+  position: relative;
+  padding: 25vh 10%;
+  min-height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+	transform-style: inherit;
+}
+
+img {
+  position: center;
+  top: 50%;
+  left: 35%;
+  width: 500px;
+  height: 500px;
+}
+
+img:last-of-type {
+}
+
+.slide:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.title {
+  width: 50%;
+  padding: 5%;
+  border-radius: 0px;
+  background: white;
+  vertical-align: center; 
+}
+
+.slide:nth-child(2n) .title {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.slide:nth-child(2n+1) .title {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.slide, .slide:before {
+  background: 50% 50% / cover; 
+}
+
+.header {
+  text-align: relative;
+  font-size: 175%;
+  color: white;
+}
+
+#title {
+  background-image: url("fog.jpg");
+  z-index:2;
+  text-align: absolute;
+}
+
+#title h1 {
+ transform: translateZ(.25px) scale(.75);
+ transform-origin: 50% 100%;
+
+}
+
+#slide1:before {
+  background-image: url("monstercatbackground.jpg");
+  transform: translateZ(-1px) scale(2);
+} 
+  #slide1 {
+    background-image: url("monstercatbackground.jpg");
+    transform: translateZ(-1px) scale(2);
+  
+}
+.bitbird {
+  color: #ff3939;
+}
+
+#slide2 {
+  background-image: url("bitbirdbground.jpg");
+  z-index:2;
+}
+
+#slide3:before {
+  background-image: url("record2bground.jpg");
+  transform: translateZ(-1px) scale(2);
+}
+
+#slide4 {
+	font-color:black;
+  background: white;
+}
+.seppemane{
+	margin-top: 145px;
+}
+li{
+	font-weight: 50;
+}
+a:link {
+    color: black;
+	text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: Black;
+	text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: rgb(173, 201, 247);
+	text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: rgb(92, 142, 224);
+	text-decoration: none;
+}
